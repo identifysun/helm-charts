@@ -23,5 +23,6 @@ spec:
 
 ```shell
 # Install demo standalone mode
+$ kubectl create ns nacos
 $ kubectl apply -f config/samples/nacos.yaml
 ```

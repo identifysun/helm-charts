@@ -2,6 +2,7 @@ apiVersion: nacos.io/v1alpha1
 kind: Nacos
 metadata:
   name: nacos
+  namespace: nacos
 spec:
   type: standalone
   image: nacos/nacos-server:v2.3.1-slim
